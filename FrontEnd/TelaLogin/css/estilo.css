@@ -1,0 +1,201 @@
+@import url('//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI');
+
+:root{
+    --color-retangulo: #ffffff;
+    --color-letra: #afafaf;
+    --color-botao: #fafafa;
+    --botao-letra: #2686CC;
+    --black: #353535;
+    --fundo: #E5E5E5;
+    --border: #f1f1f1;
+    --color: #909090;
+}
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body{
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+    box-sizing: border-box;
+    background-color: var(--border);
+} 
+
+.content{
+    width: 360px;
+    height: 400px;
+    background-color: var(--color-retangulo);
+    border: 1px solid #CBCBCB;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    flex-direction: column;
+} 
+  
+
+.content img{
+    width:130px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 112px;
+    background-color: var(--color-retangulo);
+}
+
+.input{
+    width: 250px;
+    height: 13px;
+    background-color: var(--color-botao);
+    border: 1px solid #DCDCDC;
+    border-radius: 2.3px;
+    margin-top: 9px;
+    padding: 10px;
+    color: var(--color-letra);
+    
+}
+
+.input:focus{ 
+    border: 1px solid #B2B2B2; 
+}
+
+.entrar-botao{
+    width: 278px;
+    height: 33px;
+    background-color: var(--botao-letra);
+    border: 1px solid;
+    border-radius: 2.5px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin-top: 13px;
+    padding: 12px;
+    color: var(--color-retangulo);
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content-f{
+    display: flex;
+    
+}
+
+.content-f p{
+    color:var(--color);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+
+hr{
+    border: 0;
+    border-top: 1.3px solid #CBCBCB;
+    margin-top: 36px;
+    height: 0;
+    width: 128px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+}
+
+.esqueceu-senha h1{
+    color: var(--botao-letra);
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.esqueceu-senha h1:hover{
+    text-decoration: underline;
+}
+
+.final-part{
+    display: flex;
+    justify-content: center;
+}
+
+.content-final{
+    width: 360px;
+    height: 80px;
+    background-color: var(--color-retangulo);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #CBCBCB;
+}
+
+.content-final p{
+    color: var(--black);
+    font-size: 13px;
+    margin-left: 80px;
+    margin-right: auto;
+}
+
+.content-final h1{
+    color: var(--botao-letra);
+    font-size: 13px;
+    font-weight: normal;
+    margin-right: 80px;
+}
+
+.content-final h1:hover{
+    text-decoration: underline;
+}
+
+.obter-app p{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+}
+
+.app-store{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+.imagem-app{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imagem-play{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
