@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - InstaDev</title>
 
-    <link rel="stylesheet" href="css/estilo.css"> 
+    <link rel="stylesheet" href="../TelaCadastro/css/estilo.css"> 
     <link href="//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI" rel="stylesheet" type="text/css"/> 
 
 </head>
 <body>
 
     <main>
-        <section class="form">
-            <div class="content"> 
-                <img src="img/Instadevlogo.svg" alt="Logo InstaDev">
+        <section class="form-section">
+            <div class="box-main"> 
+                <h1 class="title">InstaDev</h1> 
                 <form>
-                    <div class="entrar-email">
+                    <div class="register">
                         <input type="email" id="entrar-email" placeholder="Email" class="input"> 
                     </div>
                     
-                    <div class="entrar-senha">
+                    <div class="register">
                         <input type="password" id="entrar-senha" placeholder="Senha" class="input"> 
                     </div>
                     
-                    <button class="entrar-botao">Entrar</button>
+                    <button class="register-btn">Entrar</button>
                 </form>
 
                 <div class="content-f">
@@ -38,26 +38,20 @@
                 </div>
             </div>
 
-            <section class="final-part">
-                <div class="content-final">
-                    <p>Não tem uma conta?</p>
-                    <a href="../TelaCadastro/Index.html"><h1>Cadastre-se.</h1></a>
+            <section class="extra-section">
+                <div class="connect">
+                    <p>Não tem uma conta?&nbsp<a href="../TelaCadastro/Index.html">Cadastre-se</a></p>
                 </div>
-            </section>
-
-            <section class="app">
-                <div class="obter-app">
+                
+                <div class="app">
                     <p>Obtenha o aplicativo.</p>
+                    <div class="images-app">
+                        <a href="https://apps.apple.com/br/app/instagram/id389801252"><img src="../TelaCadastro/img/app_store 1.png" alt="Obter o aplicativo pela App Store"></a> <!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US"><img src="../TelaCadastro/img/google_play 1.png" alt="Obter o aplicativo pela Google Play"></a><!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
+                    </div>
                 </div>
+                
             </section>
-                <section class="app-store">
-                    <div class="imagem-app">
-                       <a href="https://apps.apple.com/br/app/instagram/id389801252"> <img src="img/logo_appstore.svg" alt="Logo App-Store"></a>
-                    </div>
-                    <div class="imagem-play">
-                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DC2438B0E-AA4A-4546-B804-136BD8E913E9%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src="img/logo_googleplay.png" alt="Logo Play-Store"></a>
-                    </div>
-                </section>
                 
         </section>
     </main>
