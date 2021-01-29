@@ -154,10 +154,25 @@ header > .center{
     /* background-color: springgreen; */
 }
 
+.nome-perfil {
+    display: flex;
+}
+
 .nome-perfil h2{
     font-size: 28px;
     font-weight: 300;
     margin-bottom: 1.3em;
+    margin-right: 20px;
+}
+
+.nome-perfil img {
+    width: 20px;
+    height: 40px;
+}
+
+.engrenagem-perfil {
+    width: 20px;
+    height: 40px;
 }
 
 .links-perfil {
