@@ -10,6 +10,7 @@
 
 body{
     background-color: #E5E5E5;
+    height: 100%;
 }
 
 header{
@@ -101,12 +102,68 @@ header > .center{
 
 /* FINAL HEADER " CONFIA " */
 
-/* stories */
+/* tentandp */
 
-.base1{
+.ok{
+    margin-top: 1em;
     width: 100%;
-    margin-left: 15.5em;
+    padding-left: 3em;
 }
+
+.hope{
+    
+    width: 50em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo1{
+    /* background-color: red; */
+    width: 34.67em;
+    
+}
+
+.conteudo2{
+
+    /* background-color: blue; */
+    width: 15.07em;
+    padding-right: 2em;
+
+}
+
+/* perfil */
+.perfil{
+    height: 5.63em;
+   
+
+    /* background-color: #d11f9679; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.perfil-imagem img{
+    object-fit: cover;
+    height: 3.5em;
+    width: 3.5em;
+
+    margin-top: 6px;
+    border-radius: 50px;
+}
+
+.perfil-tag p{
+    font-size: 20px;
+    padding-bottom: 2px;
+    margin-left: -2em;
+}
+
+.nome-perfil p{
+    color: #B6B6B6;
+}
+
+/* STORIES */
 
 .stories-center{
     width: 76%;
@@ -123,7 +180,7 @@ header > .center{
 
 .stories{
     height: 5.63em;
-    width: 68%;
+    
     /* background-color: #00aeff8f; */
     margin-left: -4em;
 }
@@ -135,7 +192,7 @@ header > .center{
     border-radius: 0.3em;
 
     height: 100%;
-    width: 100%;
+    width: 96%;
     display: flex;
     align-items: center;
 }
@@ -177,59 +234,15 @@ header > .center{
     background-color: #dacccc;
 }
 
-
-.perfil{
-    height: 5.63em;
-    width: 17%;
-
-    /* background-color: #d11f9679; */
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.perfil-imagem img{
-    object-fit: cover;
-    height: 3.5em;
-    width: 3.5em;
-
-    margin-top: 6px;
-    border-radius: 50px;
-}
-
-.perfil-tag p{
-    font-size: 20px;
-    padding-bottom: 2px;
-    margin-left: -2em;
-}
-
-.nome-perfil p{
-    color: #B6B6B6;
-}
-
-/* PUBLICAR */
-
-.main{
-    margin-top: 38px;
-    width: 100%;    
-}
-
-.pub-definicap{
-    display: flex;
-    flex-direction: column;
-    place-items: flex-start;
-   
-}
-
-.centralizar-pubs{
-    width: 51.7%;
-    margin: auto;
-}
+/* SEÇÃO DE PUBLICAR */
 
 .publicar{
-    width: 100%;
+    width:  107.3%;
     height: 8.3em;
+
+    margin-top: 1em;
+    margin-left: -4em;
+    
 
     background-color: #ffffff;
     border: 2px solid #dad9d9;
@@ -244,7 +257,7 @@ header > .center{
 .img-postar{
     display: flex;
     align-items: center;
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 .img-postar img{
@@ -325,13 +338,15 @@ header > .center{
 
 .publicacao{
     margin-top: 38px;
+    margin-left: -4em;
     margin-bottom: 38px;
-    
-    background-color: #ffffff;
-    width: 100%;
-    
-    border-radius: 0.3em;
 
+
+    background-color: #ffffff;
+    width: 107.3%;
+
+
+    border-radius: 0.3em;
     border: 1px solid #D1D1D1;
 
    
@@ -422,9 +437,10 @@ header > .center{
 }
 
 .coment1{
-    padding-top: 20px;
-    padding-bottom: 19px;
+    padding-top: 13px;
+    padding-bottom: 4px;
 }
+
 
 .coment1 h2{
     margin-right: 10px;
@@ -435,4 +451,3 @@ header > .center{
     color: blue;
     text-decoration: none;
 }
-
