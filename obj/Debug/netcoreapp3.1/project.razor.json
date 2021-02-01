@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "FilePath": "c:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\InstaDev.csproj",
-=======
-  "FilePath": "c:\\Users\\fic\\Desktop\\Instadev_Projeto\\InstaDev\\InstaDev.csproj",
->>>>>>> 475ffc2a9a03ee4dbda8eb77d67e78ddd9565cee
+  "FilePath": "c:\\Users\\FIC\\Desktop\\InstaDev\\InstaDev.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14396,71 +14392,38 @@
   "RootNamespace": "InstaDev",
   "Documents": [
     {
-<<<<<<< HEAD
-      "FilePath": "c:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\Views\\Home\\Privacy.cshtml",
-=======
-      "FilePath": "c:\\Users\\fic\\Desktop\\Instadev_Projeto\\InstaDev\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fic\\Desktop\\Instadev_Projeto\\InstaDev\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fic\\Desktop\\Instadev_Projeto\\InstaDev\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fic\\Desktop\\Instadev_Projeto\\InstaDev\\Views\\Home\\Privacy.cshtml",
->>>>>>> 475ffc2a9a03ee4dbda8eb77d67e78ddd9565cee
+      "FilePath": "c:\\Users\\FIC\\Desktop\\InstaDev\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
-      "FilePath": "c:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\Views\\_ViewStart.cshtml",
-=======
-      "FilePath": "c:\\Users\\fic\\Desktop\\Instadev_Projeto\\InstaDev\\Views\\_ViewStart.cshtml",
->>>>>>> 475ffc2a9a03ee4dbda8eb77d67e78ddd9565cee
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\FIC\\Desktop\\InstaDev\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
-      "FilePath": "c:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\FIC\\Desktop\\InstaDev\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-=======
-      "FilePath": "c:\\Users\\fic\\Desktop\\Instadev_Projeto\\InstaDev\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\FIC\\Desktop\\InstaDev\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\FIC\\Desktop\\InstaDev\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\fic\\Desktop\\Instadev_Projeto\\InstaDev\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
->>>>>>> 475ffc2a9a03ee4dbda8eb77d67e78ddd9565cee
+      "FilePath": "c:\\Users\\FIC\\Desktop\\InstaDev\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\FIC\\Desktop\\InstaDev\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
