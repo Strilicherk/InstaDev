@@ -102,17 +102,20 @@ header > .center{
 /* FINAL HEADER " CONFIA " */
 
 /* stories */
+
 .base1{
     width: 100%;
+    margin-left: 15.5em;
 }
 
 .stories-center{
-    width: 75%;
-    height: 5.63em;
+    width: 76%;
+    /* height: 5.63em; */
    
     margin: auto;
+
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-top: 1em;
     
     /* background-color: #e47171; */
@@ -120,9 +123,9 @@ header > .center{
 
 .stories{
     height: 5.63em;
-    width: 70%;
+    width: 68%;
     /* background-color: #00aeff8f; */
-    margin-left: -2em;
+    margin-left: -4em;
 }
 
 
@@ -177,7 +180,7 @@ header > .center{
 
 .perfil{
     height: 5.63em;
-    width: 28%;
+    width: 17%;
 
     /* background-color: #d11f9679; */
 
@@ -209,17 +212,19 @@ header > .center{
 
 .main{
     margin-top: 38px;
+    width: 100%;    
+}
 
-    width: 100%;
+.pub-definicap{
     display: flex;
     flex-direction: column;
     place-items: flex-start;
-    padding-left: 146px;
-
+   
 }
 
 .centralizar-pubs{
-    width: 58.7%;
+    width: 51.7%;
+    margin: auto;
 }
 
 .publicar{
@@ -324,7 +329,7 @@ header > .center{
     
     background-color: #ffffff;
     width: 100%;
-    height: 54.8em;
+    
     border-radius: 0.3em;
 
     border: 1px solid #D1D1D1;
@@ -417,7 +422,8 @@ header > .center{
 }
 
 .coment1{
-    padding-top: 8px;
+    padding-top: 20px;
+    padding-bottom: 19px;
 }
 
 .coment1 h2{
