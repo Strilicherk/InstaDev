@@ -25,11 +25,8 @@ namespace InstaDev
 
 
 
-         Feed feedtest = new Feed();
+         Post feedtest = new Post();
 
-        public Program(Feed feedtest)
-        {
-            this.feedtest = feedtest;
-        }
+       
     }
 }

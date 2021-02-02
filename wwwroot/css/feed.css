@@ -1,0 +1,461 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+}
+
+body{
+    background-color: #E5E5E5;
+    height: 100%;
+}
+
+header{
+    height: 2.7em;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+header > .center{
+    display: flex;
+    max-width: 1078px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+
+
+
+.logo-header{
+    width: 30%;
+}
+
+.logo-header img{
+    max-width: 5em;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.search{
+    width: 50%;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.search-box{
+    display: inline-block;
+    position: relative;
+}
+
+.search-box input{
+    background-color: #FAFAFA;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+
+    width: 250px;
+}
+
+.search-box i{
+    position: absolute;
+    left: 60px;
+    top: 0.55em;
+
+    font-size: 0.8em;
+
+    opacity: 0.3;
+
+    color: inherit;
+}
+
+.notify{
+    width: 20%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 1em;
+    padding-top: 9px;
+}
+
+.notify i{
+    
+    font-size: 25px;
+   
+}
+
+
+
+.img-miniatura img{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+    border-radius: 50px;
+}
+
+/* FINAL HEADER " CONFIA " */
+
+/* tentandp */
+
+.ok{
+    margin-top: 1em;
+    width: 100%;
+    padding-left: 3em;
+}
+
+.hope{
+    
+    width: 50em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo1{
+    /* background-color: red; */
+    width: 34.67em;
+    
+}
+
+.conteudo2{
+
+    /* background-color: blue; */
+    width: 15.07em;
+    padding-right: 2em;
+
+}
+
+/* perfil */
+.perfil{
+    height: 5.63em;
+   
+
+    /* background-color: #d11f9679; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.perfil-imagem img{
+    object-fit: cover;
+    height: 3.5em;
+    width: 3.5em;
+
+    margin-top: 6px;
+    border-radius: 50px;
+}
+
+.perfil-tag p{
+    font-size: 20px;
+    padding-bottom: 2px;
+    margin-left: -2em;
+}
+
+.nome-perfil p{
+    color: #B6B6B6;
+}
+
+/* STORIES */
+
+.stories-center{
+    width: 76%;
+    /* height: 5.63em; */
+   
+    margin: auto;
+
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 1em;
+    
+    /* background-color: #e47171; */
+}
+
+.stories{
+    height: 5.63em;
+    
+    /* background-color: #00aeff8f; */
+    margin-left: -4em;
+}
+
+
+.stories-img{
+    background-color: #ffffff;
+    border: 1px solid #dad9d9;
+    border-radius: 0.3em;
+
+    height: 100%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+}
+
+.stories-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    
+}
+
+.stories-img p{
+    text-transform: lowercase;
+    font-weight: 580;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+
+.circulo p{
+    font-size: 13px;
+    margin-top: 3px;
+    text-transform: lowercase;
+}
+
+.stories-perfil{
+    height: 3.6em;
+    width: 3.6em;
+    border-radius: 100%;
+
+    background-color: #dacccc;
+}
+
+/* SEÇÃO DE PUBLICAR */
+
+.publicar{
+    width:  107.3%;
+    height: 8.3em;
+
+    margin-top: 1em;
+    margin-left: -4em;
+    
+
+    background-color: #ffffff;
+    border: 2px solid #dad9d9;
+    border-radius: 0.3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.img-postar{
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+}
+
+.img-postar img{
+
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+    border-radius: 50px;
+
+}
+
+.img-postar p{
+    font-size: 1.5em;
+    margin-left: 1em;
+    font-weight: 700;
+}
+
+.botoes{
+    
+    margin-top: 1em;
+    width: 100%;   
+}
+
+.botoes input:hover{
+    cursor: pointer;
+}
+
+.legenda input:hover{
+    cursor: text;
+}
+
+.botoes input:focus, input:focus, select:focus{
+    outline: 0;
+}
+
+
+.alinhar-inputs{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 90%;
+    margin: auto;
+
+}
+
+.legenda input{
+    background-color: #FAFAFA;
+    border: 1px solid #EAEAEA;
+
+    width: 15em;
+    height: 30px;
+
+    text-align: center;
+    border-radius: 5px;
+    /* margin-right: 1em; */
+}
+
+
+
+.escolher input{
+    width: 9em;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #D1D1D1;
+    color: #646464;
+    border: none;
+}
+
+.btn-publicar input{
+    width: 7em;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    background-color: #2686CC;
+    color: #ffffff;
+}
+
+/*--------------------PUBLICAÇÃO----------------------*/
+
+.publicacao{
+    margin-top: 38px;
+    margin-left: -4em;
+    margin-bottom: 38px;
+
+
+    background-color: #ffffff;
+    width: 107.3%;
+
+
+    border-radius: 0.3em;
+    border: 1px solid #D1D1D1;
+
+   
+}
+
+.tag-user{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 1em;
+
+    display: flex;
+    align-items: center;
+
+    /* background-color: #460b3494; */
+
+    font-size: 15px;
+}
+
+.tag-user i{
+    margin-left: 23em;
+}
+
+.tag-user img{
+    object-fit: cover;
+    height: 2.5em;
+    width: 2.5em;
+    margin-top: 6px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.nome1{
+    font-weight: 700;
+
+}
+
+.nome1 p{
+    text-transform: lowercase;
+}
+
+.foto-pub{
+    width: 100%;
+    
+    margin-top: 16px;
+
+    
+}
+
+.foto-pub img{
+    width: 100%;
+}
+
+.icon-coment{
+    padding-top: 16px;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   
+}
+
+.icon-coment img{
+    height: 28px;
+}
+
+.icon-coment input{
+    border: none;
+    color: #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.like-coment p{
+    font-size: 16px;
+    margin-left: 1em;
+    padding-top: 8px;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    
+
+    /* background-color: #2686CC; */
+
+    margin-left: 0.8em;
+    padding-top: 12px;
+
+    width: 100%;
+    
+}
+
+.coment1{
+    padding-top: 13px;
+    padding-bottom: 4px;
+}
+
+
+.coment1 h2{
+    margin-right: 10px;
+    text-transform: lowercase;
+}
+
+.comentarios a{
+    color: blue;
+    text-decoration: none;
+}
