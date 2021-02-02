@@ -283,7 +283,7 @@ header > .center{
 }
 
 .botoes input:hover{
-    cursor: Pointer;
+    cursor: text;
 }
 
 .botoes input:focus, input:focus, select:focus{
@@ -363,6 +363,10 @@ header > .center{
     /* background-color: #460b3494; */
 
     font-size: 15px;
+}
+
+.tag-user i{
+    margin-left: 23em;
 }
 
 .tag-user img{
