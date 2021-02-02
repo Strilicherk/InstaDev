@@ -16,7 +16,7 @@ namespace InstaDev.Models
         public Feed(){
 
             //Criar uma pasta para base de dados das publicações
-            string pasta = PATH.Split("/")[0]
+            string pasta = PATH.Split("/")[0];
 
             if (!Directory.Exists(pasta))
             {
