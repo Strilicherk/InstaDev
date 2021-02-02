@@ -7,7 +7,8 @@ namespace InstaDev.Controllers
 {
     public class LoginController : Controller
     {
-
+        
+        [TempData]
         public string Mensagem { get; set; }
         User user = new User();
         public IActionResult Index()
