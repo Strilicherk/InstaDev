@@ -10,7 +10,20 @@ namespace InstaDev.Models
         public string legenda { get; set; }
         public int idUsuario { get; set; }
         public int likes { get; set; }
-        private const string PATH = "Feedbase/Post.svg";
+        private const string PATH = "Feedbase/Post.csv";
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         public Feed(){
