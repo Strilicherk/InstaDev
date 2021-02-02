@@ -19,7 +19,7 @@ namespace InstaDev.Controllers
         public IActionResult Logar(IFormCollection form)
         {
             // Lista todas as linhas do CSV ("banco de dados")
-            List<string> csv = user.ReadAllLinesCSV("Database/User.csv");
+            List<string> csv = user.ReadAllLinesCSV("Database/register.csv");
 
             // Verifica se o usuário já estiver cadastrado ou logado uma conta
             // ele vai buscar lá no csv

@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewData["Title"] = "Login";
  }
 
@@ -6,7 +6,7 @@
         <section class="form-section">
             <div class="box-main"> 
                 <div class="imagem-logo">
-                       <img src="img/img_logo.svg alt=">
+                       <img src="img/img_logo.svg" alt="Logo InstaDev">
                    </div>
                 <form>
                     <div class="register">
@@ -33,14 +33,14 @@
 
             <section class="extra-section">
                 <div class="connect">
-                    <p>Não tem uma conta?&nbsp<a href="../TelaCadastro/Index.html">Cadastre-se</a></p>
-                </div>
+                    <p>Não tem uma conta?&nbsp<a asp-area="Ir para a tela de Cadastro" asp-controller="User" asp-action="Register">Cadastre-se</a></p>
+                </div>.
                 
                 <div class="app">
                     <p>Obtenha o aplicativo.</p>
                     <div class="images-app">
-                        <a href="https://apps.apple.com/br/app/instagram/id389801252"><img src="..~/TelaCadastro/img/app_store 1.png" alt="Obter o aplicativo pela App Store"></a> <!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
-                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US"><img src="..~/TelaCadastro/img/google_play 1.png" alt="Obter o aplicativo pela Google Play"></a><!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
+                        <a href="https://apps.apple.com/br/app/instagram/id389801252"><img src="~/img/app_store 1.png" alt="Obter o aplicativo pela App Store"></a> <!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US"><img src="~/img/google_play 1.png" alt="Obter o aplicativo pela Google Play"></a><!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
                     </div>
                 </div>
                 

@@ -37,6 +37,12 @@ main{
     padding: 20px;
 }
 
+.imagem-logo{
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+
 .pre-form{
     margin-bottom: 1em;
 }
