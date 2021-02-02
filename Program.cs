@@ -14,17 +14,22 @@ namespace InstaDev
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
-
-
-            Feed feedtest = new Feed();
+            CreateHostBuilder(args).Build().Run();         
         }
-
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+
+
+         Feed feedtest = new Feed();
+
+        public Program(Feed feedtest)
+        {
+            this.feedtest = feedtest;
+        }
     }
 }
