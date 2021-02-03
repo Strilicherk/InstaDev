@@ -111,5 +111,5 @@ C:\Users\Marcos Roberto\Documents\Projeto SENAI\InstaDev\obj\Debug\netcoreapp3.1
 C:\Users\Marcos Roberto\Documents\Projeto SENAI\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.csproj.CopyComplete
 >>>>>>> be48bcb061ca71eaafeff943ff4a09fc7de6c266
 C:\Users\fic\Desktop\Projeto\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Perfil\Index.cshtml.g.cs
-C:\Users\fic\Desktop\Projeto\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Register\Index.cshtml.g.cs
-C:\Users\fic\Desktop\Projeto\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Login\logar.cshtml.g.cs
+C:\Users\fic\Desktop\Projeto\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Login\login.cshtml.g.cs
+C:\Users\fic\Desktop\Projeto\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs

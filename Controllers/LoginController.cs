@@ -12,7 +12,7 @@ namespace InstaDev.Controllers
         public string Mensagem { get; set; }
         User user = new User();
 
-        public IActionResult Logar()
+        public IActionResult Login()
         {
             return View();
         }
