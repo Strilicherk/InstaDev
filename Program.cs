@@ -16,8 +16,6 @@ namespace InstaDev
         {
             CreateHostBuilder(args).Build().Run();
 
-
-            Feed feedtest = new Feed();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
