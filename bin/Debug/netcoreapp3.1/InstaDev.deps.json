@@ -10,11 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-<<<<<<< HEAD
     "languageVersion": "",
-=======
-    "languageVersion": "8.0",
->>>>>>> be48bcb061ca71eaafeff943ff4a09fc7de6c266
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
