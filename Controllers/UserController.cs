@@ -12,7 +12,7 @@ namespace InstaDev.Controllers
 
         // localhost:5001/Instadev/Cadastro
         [Route ("Register")]
-        public IActionResult Register(){
+        public IActionResult Registered(){
             ViewBag.Users = userModels.ReadAllItems();
             return View();
         }
@@ -25,6 +25,8 @@ namespace InstaDev.Controllers
             newUser.CompleteName = registrationForm["CompleteName"];
             newUser.UserName = registrationForm["UserName"];
             newUser.Password = registrationForm["Password"];
+
+            newUser.IdUser = userModels.IdGenerator();
 
             userModels.Create(newUser);
             ViewBag.Users = userModels.ReadAllItems();
