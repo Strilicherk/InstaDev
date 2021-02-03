@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using InstaDev.Interfaces;
 
-
 namespace InstaDev.Models
 {
     public class User:InstaDevBase, IUser
@@ -21,6 +20,13 @@ namespace InstaDev.Models
         public User(){ 
             CreateFolderAndFile(PATH);
         }
+
+
+        public int IdGenerator(){
+            Random idRandom = new Random();
+            return idRandom.Next();
+}
+
         
         public string PrepareLinesCSV(User prepareLines){ 
             return $"{prepareLines.Email};{prepareLines.CompleteName};{prepareLines.UserName};{prepareLines.Password}";
@@ -51,8 +57,29 @@ namespace InstaDev.Models
             return users; 
         }
 
-        public void Update(){}
 
-        public void Delete(){} 
+        public void Update(User update){
+            List<string> linesUpdate = ReadAllLinesCSV(PATH);
+        
+
+            linesUpdate.RemoveAll( x => x.Split(";")[0] == update.IdUser.ToString() ); 
+        
+
+            linesUpdate.Add(PrepareLinesCSV(update));
+
+
+            RewriteCSV(PATH,linesUpdate);
+        } 
+
+        public void Delete(int id){
+            List<string> linesUpdate = ReadAllLinesCSV(PATH);
+        
+
+            linesUpdate.RemoveAll( x => x.Split(";")[0] == id.ToString() ); 
+        
+            
+            RewriteCSV(PATH,linesUpdate);
+        } 
+
     }
 }

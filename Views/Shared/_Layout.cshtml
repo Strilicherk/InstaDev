@@ -1,16 +1,49 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - InstaDev</title>
-    <link href="//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI" rel="stylesheet" type="text/css/style.css"/> 
-    
 
-    <link rel="stylesheet" href="~/css/style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Pág Perfil</title>
+    <link rel="stylesheet" href="css/perfil.css">
 </head>
 <body>
+    <header>
+        <div class="center">    
     
+            <div class="logo-header">
+                <a href="#"><img src="img/Instadev.svg" alt="logo Instadev"></a>
+            </div> <!-- logo da header -->
+            
+    
+            <div class="search">
+    
+                <div class="search-box">
+    
+                    <i class="fas fa-search"></i>
+                    <input placeholder="Pesquisar" type="text" name="busca">
+    
+                </div><!-- search-box-->
+                
+            </div> <!-- search-->
+            
+    
+            <div class="notify">
+                
+                <a href="#"><img src="img/Vector.svg"></a>
+                <a href="#"><img src="img/plane 1.svg"></i></a>
+                <a href="#"><i class="far fa-compass"></i></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+    
+                <div class="img-miniatura"><img src="img/79763607_516843355604052_5614717620805127920_n.jpg"  ></div>
+            </div><!--icones-->
+    
+        </div><!--center div de centralizar-->
+        </header>
+        
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
