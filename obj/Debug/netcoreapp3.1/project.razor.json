@@ -14412,8 +14412,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\fic\\Desktop\\Projeto\\InstaDev\\Views\\Home\\Logar.cshtml",
-      "TargetPath": "Views\\Home\\Logar.cshtml",
+      "FilePath": "c:\\Users\\fic\\Desktop\\Projeto\\InstaDev\\Views\\Home\\logar.cshtml",
+      "TargetPath": "Views\\Home\\logar.cshtml",
       "FileKind": "mvc"
     }
   ],
