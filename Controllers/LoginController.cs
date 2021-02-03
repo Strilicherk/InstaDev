@@ -11,11 +11,13 @@ namespace InstaDev.Controllers
         [TempData]
         public string Mensagem { get; set; }
         User user = new User();
-        public IActionResult Index()
+
+        public IActionResult Logar()
         {
             return View();
         }
 
+        [Route("Logar")]
         public IActionResult Logar(IFormCollection form)
         {
             // Lista todas as linhas do CSV ("banco de dados")
