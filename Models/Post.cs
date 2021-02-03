@@ -7,7 +7,6 @@ namespace InstaDev.Models
     public class Post : /* aqui deveria vir uma super classe que eu não sei qual é*/ IFeed
     {
 
-    
         public int idImagem { get; set; }
         public string imagem { get; set; }
         public string legenda { get; set; }
@@ -35,6 +34,35 @@ namespace InstaDev.Models
             }
 
         }
+        public List<string> ReadAllLinesCSV(string path){
+            List<string> linhas = new List<string>();
+
+            //using
+            using (StreamReader file = new StreamReader(path))
+            {
+                string linha;
+                while ((linha = file.ReadLine()) !=null)
+                {
+                    linhas.Add(linha);
+                }
+
+            }
+
+            return linhas; 
+        }
+
+        public void RewriteCSV(string path, List<string> linhas){
+
+            using (StreamWriter output = new StreamWriter(path))
+            {
+                foreach (var item in linhas)
+                {
+                    output.Write( item + '\n' );
+                }
+            }
+
+        }
+
 
         public string Prepare(Post e)
         {
@@ -70,11 +98,14 @@ namespace InstaDev.Models
                 Post pub = new Post();
 
                 //Separar cada indice de sua classe
-                pub.idImagem = int.Parse( linha[0] );
+                pub.idImagem = int.Parse(linha[0]);
                 pub.imagem = linha[1];
                 pub.legenda = linha[2];
 
                 //adicionar publicação na lista de Publicações
+                post.Add(pub);
+
+                
 
             }
 
@@ -83,13 +114,32 @@ namespace InstaDev.Models
         }
 
         public void Update(Post e)
-        {
-            throw new System.NotImplementedException();
+        {   
+            //lemos todas a linhas para localizar o item a ser motificado
+            List<string> linhas = ReadAllLinesCSV(PATH);
+
+            //Removemos a linha que tem a legenda a ser alterada
+            linhas.RemoveAll(x => x.Split(";")[0] == e.idImagem.ToString());
+
+            //adiconamos uma nova linha "alterada" no final do mesmo codigo
+            linhas.Add(Prepare(e));
+
+            //Reescrevemos e Salvamos as alterações
+            RewriteCSV(PATH, linhas);
         }
+
+
 
         public void Delete(Post idPub)
         {
-            throw new System.NotImplementedException();
+            //lemos todas a linhas para localizar o item a ser motificado
+            List<string> linhas = ReadAllLinesCSV(PATH);
+
+            //Removemos a linha que tem a legenda a ser alterada
+            linhas.RemoveAll(x => x.Split(";")[0] == idImagem.ToString());       
+
+            //Reescrevemos e Salvamos as alterações
+            RewriteCSV(PATH, linhas);
         }
     }
 }
