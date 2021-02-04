@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\fic\\Desktop\\Projeto\\InstaDev\\InstaDev.csproj": {}
   },
   "projects": {
@@ -16,6 +17,22 @@
         "configFilePaths": [
           "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+    "C:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\InstaDev.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\InstaDev.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\InstaDev.csproj",
+        "projectName": "InstaDev",
+        "projectPath": "C:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\InstaDev.csproj",
+        "packagesPath": "C:\\Users\\Marcos Roberto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcos Roberto\\Documents\\Projeto SENAI\\InstaDev\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marcos Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> bc608ff78b1df838ba6df25f8ca526c5087a6dbf
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
