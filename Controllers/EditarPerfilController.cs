@@ -15,11 +15,11 @@ namespace InstaDev.Controllers
             // ViewBag.DadosUsuario = userModel.Read
             return View();
         }
-        // public IActionResult Excluir(int id)
-        // {
-        //     userModel.Delete(id);
-        //     return LocalRedirect ("~/Register");
-        // }
+        public IActionResult Excluir(int id)
+        {
+            userModel.Delete(id);
+            return LocalRedirect ("~/Register");
+        }
         // public IActionResult Update(User user)
         // {
         //     List<string> linhas = ReadAllLinesCSV (PATH); PATH csv que o cadastro armazena infos
