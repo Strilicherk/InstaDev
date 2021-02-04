@@ -75,3 +75,5 @@ C:\Users\Marcos Roberto\Documents\Projeto SENAI\InstaDev\obj\Debug\netcoreapp3.1
 C:\Users\Marcos Roberto\Documents\Projeto SENAI\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.pdb
 C:\Users\Marcos Roberto\Documents\Projeto SENAI\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.genruntimeconfig.cache
 C:\Users\Marcos Roberto\Documents\Projeto SENAI\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.csproj.CopyComplete
+C:\Users\mathe\OneDrive\Área de Trabalho\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Perfil\Index.cshtml.g.cs
+C:\Users\mathe\OneDrive\Área de Trabalho\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\EditarPerfil\Index.cshtml.g.cs
