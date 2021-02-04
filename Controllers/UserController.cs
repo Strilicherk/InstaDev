@@ -31,8 +31,8 @@ namespace InstaDev.Controllers
             userModels.Create(newUser);
             ViewBag.Users = userModels.ReadAllItems();
 
-            // localhost:5001/Instadev/Cadastro
-            return LocalRedirect("~/User/Register");
+            // localhost:5001/Instadev/Register
+            return LocalRedirect("~/User/Registered");
         }
     }
 }

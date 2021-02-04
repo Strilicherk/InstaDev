@@ -20,7 +20,6 @@ namespace InstaDev.Models
         public User(){ 
             CreateFolderAndFile(PATH);
         }
-
         public int IdGenerator(){
             Random idRandom = new Random();
             return idRandom.Next();
@@ -55,6 +54,7 @@ namespace InstaDev.Models
             return users; 
         }
 
+
         public void Update(User update){
             List<string> linesUpdate = ReadAllLinesCSV(PATH);
         
@@ -77,5 +77,5 @@ namespace InstaDev.Models
             
             RewriteCSV(PATH,linesUpdate);
         } 
-    }
+  }
 }

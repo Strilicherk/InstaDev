@@ -14422,18 +14422,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\Login\\login.cshtml",
+      "TargetPath": "Views\\Login\\login.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\EditarPerfil\\Editar.cshtml",
       "TargetPath": "Views\\EditarPerfil\\Editar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {

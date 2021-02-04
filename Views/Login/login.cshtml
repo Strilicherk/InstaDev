@@ -1,23 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - InstaDev</title>
+@{
+    ViewData["Title"] = "Login";
+ }
 
-    <link rel="stylesheet" href="../TelaCadastro/css/estilo.css"> 
-    <link href="//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI" rel="stylesheet" type="text/css"/> 
-
-</head>
-<body>
-
-    <main>
+     <main>
         <section class="form-section">
             <div class="box-main"> 
                 <div class="imagem-logo">
-                    <img src="img/img_logo.svg" alt="Logo InstaDev">
-               </div>
-                <form>
+                       <img src="img/img_logo.svg" alt="Logo InstaDev">
+                   </div>
+                <form method="POST" action='@Url.Action("Logar")' class="cadastro">
                     <div class="register">
                         <input type="email" id="entrar-email" placeholder="Email" class="input"> 
                     </div>
@@ -26,7 +17,7 @@
                         <input type="password" id="entrar-senha" placeholder="Senha" class="input"> 
                     </div>
                     
-                    <button class="register-btn">Entrar</button>
+                    <button class="register-btn" type="submit">Entrar</button>
                 </form>
 
                 <div class="content-f">
@@ -42,14 +33,14 @@
 
             <section class="extra-section">
                 <div class="connect">
-                    <p>Não tem uma conta?&nbsp<a href="../TelaCadastro/Index.html">Cadastre-se</a></p>
+                    <p>Não tem uma conta?&nbsp<a asp-controller="User" asp-action="Index"> Cadastre-se </a></p>
                 </div>
                 
                 <div class="app">
-                    <p>Obtenha o aplicativo.</p>
+                    <p> Obtenha o aplicativo.</p>
                     <div class="images-app">
-                        <a href="https://apps.apple.com/br/app/instagram/id389801252"><img src="../TelaCadastro/img/app_store 1.png" alt="Obter o aplicativo pela App Store"></a> <!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
-                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US"><img src="../TelaCadastro/img/google_play 1.png" alt="Obter o aplicativo pela Google Play"></a><!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
+                        <a href="https://apps.apple.com/br/app/instagram/id389801252"><img src="~/img/app_store 1.png" alt="Obter o aplicativo pela App Store"></a> <!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US"><img src="~/img/google_play 1.png" alt="Obter o aplicativo pela Google Play"></a><!-- o "scr" é onde colocamos a imagem || o "alt" é onde descrevemos a imagem -->
                     </div>
                 </div>
                 
@@ -57,7 +48,3 @@
                 
         </section>
     </main>
-
-    
-</body>
-</html>
