@@ -8,8 +8,8 @@ namespace InstaDev.Controllers
     [Route("EditarPerfil")]
     public class EdicaoPerfilController : Controller
     {
+
         User userModel = new User();
-        // [Route("Edi")]
         public IActionResult Index()
         {
             // ViewBag.DadosUsuario = userModel.Read
@@ -22,10 +22,11 @@ namespace InstaDev.Controllers
         }
         // public IActionResult Update(User user)
         // {
-        //     List<string> linhas = ReadAllLinesCSV (PATH); PATH csv que o cadastro armazena infos
+        //     List<string> linhas = ReadAllLinesCSV (PATH); 
         //     linhas.RemoveAll (y => y.Split (";") [0] == .ToString ());
         //     linhas.Add (Prepare (n));  
-        //     RewriteCSV (PATH, linhas); reescrever infos no csv
+        //     // RewriteCSV (PATH, linhas); reescrever infos no csv
+        //     return LocalRedirect ("~/Perfil");
         // }
 
     }
