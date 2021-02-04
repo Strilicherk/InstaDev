@@ -8,44 +8,47 @@ namespace InstaDev.Controllers
     public class LoginController : Controller
     {
 
+        [TempData]
         public string Mensagem { get; set; }
         User user = new User();
-        public IActionResult Index()
+
+        public IActionResult Login()
         {
             return View();
         }
 
+        [Route("Logar")]
         public IActionResult Logar(IFormCollection form)
         {
             // Lista todas as linhas do CSV ("banco de dados")
-            List<string> csv = user.ReadAllLinesCSV("Database/User.csv");
+            List<string> csv = user.ReadAllLinesCSV("Database/register.csv");
 
             // Verifica se o usuário já estiver cadastrado ou logado uma conta
             // ele vai buscar lá no csv
-            var logado = 
+            var logado =
             csv.Find(
-                x => 
-                x.Split(";")[0] == form["Email"] && 
+                x =>
+                x.Split(";")[0] == form["Email"] &&
                 x.Split(";")[3] == form["Password"]
             );
 
 
             // se encontrar um usuário, ele irá redirecionar para a página de feed
-             if(logado != null)
+            if (logado != null)
             {
                 HttpContext.Session.SetString("_UserName", logado.Split(";")[0]);
-                return LocalRedirect("Feed");
+                return LocalRedirect("~/Feed");
             }
 
-             Mensagem = "Senha ou email incorretos, tente novamente...";
+            Mensagem = "Senha ou email incorretos, tente novamente...";
             return LocalRedirect("~/Login");
-            }
+        }
 
-            [Microsoft.AspNetCore.Mvc.Route("Logout")]
-            public IActionResult Logout()
-            {
-                HttpContext.Session.Remove("_UserName");
-                return LocalRedirect("~/");
-            }
-            }
+        [Route("Logout")]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("_UserName");
+            return LocalRedirect("~/");
+        }
+    }
 }
