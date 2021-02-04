@@ -24,7 +24,7 @@ namespace InstaDev.Models
         public int IdGenerator(){
             Random idRandom = new Random();
             return idRandom.Next();
-}
+        }
         
         public string PrepareLinesCSV(User prepareLines){ 
             return $"{prepareLines.Email};{prepareLines.CompleteName};{prepareLines.UserName};{prepareLines.Password}";

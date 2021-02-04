@@ -5,19 +5,21 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace InstaDev.Controllers
 {
-    public class EdicaoPerfilController : Controller
+    [Route("EditarPerfil")]
+    public class EditarPerfilController : Controller
     {
         User userModel = new User();
-        [Route("EditarPerfil")]
-        public IActionResult Index()
+        [Route("Editar")]
+        public IActionResult Editar()
         {
-            // ViewBag.DadosUsuario = userModel.Read
+            ViewBag.EditarPerfil = userModel.ReadAllItems();
             return View();
         }
         public IActionResult Excluir(int id)
         {
+            
             userModel.Delete(id);
-            return LocalRedirect ("~/Register");
+            return LocalRedirect ("~/User/Registered");
         }
         // public IActionResult Update(User user)
         // {
