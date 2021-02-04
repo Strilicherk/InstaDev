@@ -1,0 +1,434 @@
+﻿
+@model Post
+
+@{
+    ViewData["Title"] = "Insta Dev";
+}
+
+
+<body>
+
+
+
+    <header>
+        <div class="center">    
+    
+            <div class="logo-header">
+                <a href="#"><img src="img/Instadev.svg" alt="logo Instadev"></a>
+            </div> <!-- logo da header -->
+            
+    
+            <div class="search">
+    
+                <div class="search-box">
+    
+                    <i class="fas fa-search"></i>
+                    <input placeholder="Pesquisar" type="text" name="busca">
+    
+                </div><!-- search-box-->
+                
+            </div> <!-- search-->
+            
+    
+            <div class="notify">
+                
+                <a href="#"><img src="img/Vector.svg"></a>
+                <a href="#"><img src="img/plane 1.svg"></i></a>
+                <a href="#"><i class="far fa-compass"></i></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+    
+                <div class="img-miniatura"><img src="img/IMG_20201028_173745_375 (4).jpg"  ></div>
+            </div><!--icones-->
+    
+        </div><!--center div de centralizar-->
+        </header>
+
+        <main>
+
+            <div class="ok">
+
+                <div class="hope">
+
+                
+                    <div class="conteudo1">
+                        <div class="stories">
+                    
+                            <div class="stories-img">
+                                
+                                <div class="circulo">
+                                    <div class="stories-perfil"><a href="#"><img src="img/lula.jpg"></a></div>
+                                    <p>lula.livre</p>
+                                </div>
+        
+                                <div class="circulo">
+                                    <div class="stories-perfil"><a href="#"><img src="img/jakare.jpg"></a></div>
+                                    <p>jake.me</p>
+                                </div>
+        
+                                <div class="circulo">
+                                    <div class="stories-perfil"><a href="#"><img src="img/confia.jpg"></a></div>
+                                    <p>paulo_brandao</p>
+                                </div>
+        
+                                <div class="circulo">
+                                    <div class="stories-perfil"><a href="#"><img src="img/xinnnin.jpg"></a></div>
+                                    <p>xinnin</p>
+                                </div>
+        
+                                <div class="circulo">
+                                    <div class="stories-perfil"><a href="#"><img src="img/badcat.jpg"></a></div>
+                                    <p>bad.cat</p>
+                                </div>
+        
+                                <div class="circulo">
+                                    <div class="stories-perfil"><a href="#"><img src="img/djonga10.jpg"></a></div>
+                                    <p>djonga.10</p>
+                                </div>
+        
+                                <div class="circulo">
+                                    <div class="stories-perfil"><a href="#"><img src="img/image.jpg"></a></div>
+                                    <p>darth.saber</p>
+                                </div>
+                            </div><!--stories-img-->
+                        </div><!--stories-->
+
+
+                        <div class="publicar">
+
+                            <div class="img-postar">
+                                <img src="img/IMG_20201028_173745_375 (4).jpg" alt="foto de perfil">
+                                <p>Postar</p>
+                            </div><!--img-postar-->
+                
+                            <div class="botoes">
+
+                                <form class="alinhar-inputs" method="POST" action= '@Url.Action("Cadastrar")' enctype="multipart/form-data"> 
+
+                                    <div class="legenda"><input type="text" name="legenda"  placeholder="Digite uma descrição da imagem"></div>
+                                    <div class="escolher"><input type="button" value="Escolha a imagem"></div>
+                                    <div class="btn-publicar"><input type="submit" value="Postar"></div>
+
+                                </form> <!--alinhar-inputs-->
+
+
+                            </div><!--botoes-->
+                
+                
+                        </div><!--publicar-->
+
+
+                        <div class="publicacao">
+                        
+                            <div class="tag-user">
+                                <img src="img/lula.jpg">
+                                <div class="texto-user">
+                                    <p class="nome1">lula.livre</p>
+                                    <p class="description">Siri Cracudo</p>                                  
+                                </div>   
+
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+
+                            </div><!--tag-user-->
+                            
+                            <div class="foto-pub">
+                                <img src="img/lulafuckmolusco.jpg">
+                            </div><!--foto-pub-->
+                
+                            <div class="like-coment">
+                
+                
+                                <div class="icon-coment">
+                        
+                                    <a href="#"><img src="img/heart.svg"></a>
+                                    <a href="#"><img src="img/coment.svg"></a>
+                                    <input type="text" name="Comentar" placeholder="Comentar...">
+                
+                
+                                </div>
+                
+                                <p>4022 curtidas</p>
+                
+                
+                            </div><!--like-coment-->
+                
+                            <div class="comentarios">
+                
+                                <div class="coment1"><h2>patricio</h2>
+                                 <p>foto maneira! :D</p>
+                                </div>
+                               
+                
+                                <div class="coment1"><h2>bob.square_pants</h2>
+                                <p>pedido na mesa 1! seu comedia</p>
+                                </div>
+                                
+                                
+                                <div class="coment1"><h2>money.crab</h2>
+                                <p>AO TRABALHO!</p>
+                                </div>
+                                
+                                
+                            </div><!--comentarios-->
+                            
+                            
+                        </div><!--publicacao-->
+                
+                        <div class="publicacao">
+                                        
+                            <div class="tag-user">
+                                <img src="img/jakare.jpg">
+                                <div class="texto-user">
+                                    <p class="nome1">jake.me</p>
+                                    <p class="description">OOO Kingdom</p>
+                                </div>    
+
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+
+                            </div><!--tag-user-->
+                            
+                            <div class="foto-pub">
+                                <img src="img/jake.png">
+                            </div><!--foto-pub-->
+                
+                            <div class="like-coment">
+                
+                
+                                <div class="icon-coment">
+                        
+                                    <a href="#"><img src="img/heart.svg"></a>
+                                    <a href="#"><img src="img/coment.svg"></a>
+                                    <input type="text" name="Comentar" placeholder="Comentar...">
+                
+                
+                                </div>
+                
+                                <p>4022 curtidas</p>
+                
+                
+                            </div><!--like-coment-->
+                
+                            <div class="comentarios">
+                
+                                <div class="coment1"><h2>adventure.finn</h2>
+                                <p>eu quero um pedaço</p>
+                                </div>
+                                
+                
+                                <div class="coment1"><h2>princess.jujube</h2>
+                                <p>Jake?! que nojo</p>
+                                </div>
+                                
+                                
+                                
+                            </div><!--comentarios-->
+                            
+                            
+                        </div><!--publicacao-->
+                
+                        <div class="publicacao">
+                                        
+                            <div class="tag-user">
+                                <img src="img/IMG_20201028_173745_375 (4).jpg">
+                                <div class="texto-user">
+                                    <p class="nome1">sxwuell</p>
+                                    <p class="description">SENAI informatica</p>
+                                </div>    
+
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+
+                            </div><!--tag-user-->
+                            
+                            <div class="foto-pub">
+                                <img src="img/fodeo.jpg">
+                            </div><!--foto-pub-->
+                
+                            <div class="like-coment">
+                
+                
+                                <div class="icon-coment">
+                        
+                                    <a href="#"><img src="img/heart.svg"></a>
+                                    <a href="#"><img src="img/coment.svg"></a>
+                                    <input type="text" name="Comentar" placeholder="Comentar...">
+                
+                
+                                </div>
+                
+                                <p>2 curtidas</p>
+                
+                
+                            </div><!--like-coment-->
+                
+                            <div class="comentarios">
+                
+                                <div class="coment1"><h2>sxwuell</h2>
+                                <p>Front-end finalizado agr : </p>
+                                </div>
+                                
+                
+                                <div class="coment1"><h2>paulo_brandao</h2>
+                                <p>confia</p>
+                                </div>
+                                
+                                
+                                
+                            </div><!--comentarios-->
+                
+                        
+                            
+                            
+                        </div><!--publicacao-->
+                
+                        <div class="publicacao">
+                                        
+                            <div class="tag-user">
+                                <img src="img/confia.jpg">
+                                <div class="texto-user">
+                                    <p class="nome1">paulo_brandao</p>
+                                    <p class="description">SENAI informatica</p>
+                                </div>    
+
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+
+                            </div><!--tag-user-->
+                            
+                            <div class="foto-pub">
+                                <img src="img/confia.jpg">
+                            </div><!--foto-pub-->
+                
+                            <div class="like-coment">
+                
+                
+                                <div class="icon-coment">
+                        
+                                    <a href="#"><img src="img/heart.svg"></a>
+                                    <a href="#"><img src="img/coment.svg"></a>
+                                    <input type="text" name="Comentar" placeholder="Comentar...">
+                
+                
+                                </div>
+                
+                                <p>9999 curtidas</p>
+                
+                
+                            </div><!--like-coment-->
+                
+                            <div class="comentarios">
+                
+                                <div class="coment1"><h2>paulo_brandao</h2>
+                                <p>Pessoal de dev CONFIA </p>
+                                </div>
+                                
+                
+                                <div class="coment1"><h2>paulo_brandao</h2>
+                                <a href="#">#confia</a>
+                                </div>
+                                
+                                
+                                
+                            </div><!--comentarios-->
+                
+                        
+                            
+                            
+                        </div><!--publicacao-->
+                
+                        <div class="publicacao">
+                                        
+                            <div class="tag-user">
+                                <img src="img/confia.jpg">
+                                <div class="texto-user">
+                                    <p class="nome1">paulo_brandao</p>
+                                    <p class="description">SENAI informatica</p>
+                                </div>    
+
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+
+                            </div><!--tag-user-->
+                            
+                            <div class="foto-pub">
+                                <img src="img/homemsonho.jpg">
+                            </div><!--foto-pub-->
+                
+                            <div class="like-coment">
+                
+                
+                                <div class="icon-coment">
+                        
+                                    <a href="#"><img src="img/heart.svg"></a>
+                                    <a href="#"><img src="img/coment.svg"></a>
+                                    <input type="text" name="Comentar" placeholder="Comentar...">
+                
+                
+                                </div>
+                
+                                <p>209 curtidas</p>
+                
+                
+                            </div><!--like-coment-->
+                
+                            <div class="comentarios">
+                
+                            
+                
+                                <div class="coment1"><h2>paulo_brandao</h2>
+                                <a href="#">#ficaadica</a>
+                                </div>
+                                
+                
+                                <div class="coment1"><h2>sxwuell</h2>
+                                <p>aaaaaaaaaa</p>
+                                </div>
+                                
+                
+                                
+                                
+                            </div><!--comentarios-->
+                
+                        
+                            
+                            
+                        </div><!--publicacao-->
+
+
+
+
+                    </div> <!--conteudo1-->
+
+                    <!-- publicação -->
+
+                    <div class="conteudo2">
+
+
+                        <div class="perfil">
+
+                            <div class="perfil-imagem">
+                                <a href ="../Perfil/Index.html"> <img src="img/IMG_20201028_173745_375 (4).jpg"></a>
+                            </div>
+
+                            <div class="perfil-tag">
+                                <p>sxwuell</p>
+                                <div class="nome-perfil"><p>Samuel Luz'</p></div>
+                            </div>
+
+                        </div><!--perfil-->
+
+
+                    </div><!--conteudo2-->
+                    
+                </div>
+
+            </div>
+
+        </main>
+
+
+        
+
+
+
+
+
+    
+</body>
+</html>

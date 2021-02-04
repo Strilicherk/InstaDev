@@ -35,3 +35,4 @@ C:\Users\CASSIA\OneDrive\SENAI\InstaDev\InstaDev\obj\Debug\netcoreapp3.1\InstaDe
 C:\Users\CASSIA\OneDrive\SENAI\InstaDev\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.pdb
 C:\Users\CASSIA\OneDrive\SENAI\InstaDev\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.genruntimeconfig.cache
 C:\Users\CASSIA\OneDrive\SENAI\InstaDev\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.csproj.CopyComplete
+C:\Users\CASSIA\OneDrive\SENAI\InstaDev\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Post\Index.cshtml.g.cs
