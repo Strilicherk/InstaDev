@@ -105,7 +105,7 @@
                                 <form class="alinhar-inputs" method="POST" action= '@Url.Action("Cadastrar")' enctype="multipart/form-data"> 
 
                                     <div class="legenda"><input type="text" name="legenda"  placeholder="Digite uma descrição da imagem"></div>
-                                    <div class="escolher"><input type="button" value="Escolha a imagem"></div>
+                                    <div class="escolher"><input type="file" name="imagem" value="Escolha a imagem"></div>
                                     <div class="btn-publicar"><input type="submit" value="Postar"></div>
 
                                 </form> <!--alinhar-inputs-->
@@ -131,7 +131,10 @@
                             </div><!--tag-user-->
                             
                             <div class="foto-pub">
-                                <img src="img/lulafuckmolusco.jpg">
+
+                                <img src="/img/fotopub/@novoPost.imagem">
+
+
                             </div><!--foto-pub-->
                 
                             <div class="like-coment">
@@ -173,223 +176,7 @@
                             
                         </div><!--publicacao-->
                 
-                        <div class="publicacao">
-                                        
-                            <div class="tag-user">
-                                <img src="img/jakare.jpg">
-                                <div class="texto-user">
-                                    <p class="nome1">jake.me</p>
-                                    <p class="description">OOO Kingdom</p>
-                                </div>    
-
-                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
-
-                            </div><!--tag-user-->
-                            
-                            <div class="foto-pub">
-                                <img src="img/jake.png">
-                            </div><!--foto-pub-->
-                
-                            <div class="like-coment">
-                
-                
-                                <div class="icon-coment">
                         
-                                    <a href="#"><img src="img/heart.svg"></a>
-                                    <a href="#"><img src="img/coment.svg"></a>
-                                    <input type="text" name="Comentar" placeholder="Comentar...">
-                
-                
-                                </div>
-                
-                                <p>4022 curtidas</p>
-                
-                
-                            </div><!--like-coment-->
-                
-                            <div class="comentarios">
-                
-                                <div class="coment1"><h2>adventure.finn</h2>
-                                <p>eu quero um pedaço</p>
-                                </div>
-                                
-                
-                                <div class="coment1"><h2>princess.jujube</h2>
-                                <p>Jake?! que nojo</p>
-                                </div>
-                                
-                                
-                                
-                            </div><!--comentarios-->
-                            
-                            
-                        </div><!--publicacao-->
-                
-                        <div class="publicacao">
-                                        
-                            <div class="tag-user">
-                                <img src="img/IMG_20201028_173745_375 (4).jpg">
-                                <div class="texto-user">
-                                    <p class="nome1">sxwuell</p>
-                                    <p class="description">SENAI informatica</p>
-                                </div>    
-
-                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
-
-                            </div><!--tag-user-->
-                            
-                            <div class="foto-pub">
-                                <img src="img/fodeo.jpg">
-                            </div><!--foto-pub-->
-                
-                            <div class="like-coment">
-                
-                
-                                <div class="icon-coment">
-                        
-                                    <a href="#"><img src="img/heart.svg"></a>
-                                    <a href="#"><img src="img/coment.svg"></a>
-                                    <input type="text" name="Comentar" placeholder="Comentar...">
-                
-                
-                                </div>
-                
-                                <p>2 curtidas</p>
-                
-                
-                            </div><!--like-coment-->
-                
-                            <div class="comentarios">
-                
-                                <div class="coment1"><h2>sxwuell</h2>
-                                <p>Front-end finalizado agr : </p>
-                                </div>
-                                
-                
-                                <div class="coment1"><h2>paulo_brandao</h2>
-                                <p>confia</p>
-                                </div>
-                                
-                                
-                                
-                            </div><!--comentarios-->
-                
-                        
-                            
-                            
-                        </div><!--publicacao-->
-                
-                        <div class="publicacao">
-                                        
-                            <div class="tag-user">
-                                <img src="img/confia.jpg">
-                                <div class="texto-user">
-                                    <p class="nome1">paulo_brandao</p>
-                                    <p class="description">SENAI informatica</p>
-                                </div>    
-
-                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
-
-                            </div><!--tag-user-->
-                            
-                            <div class="foto-pub">
-                                <img src="img/confia.jpg">
-                            </div><!--foto-pub-->
-                
-                            <div class="like-coment">
-                
-                
-                                <div class="icon-coment">
-                        
-                                    <a href="#"><img src="img/heart.svg"></a>
-                                    <a href="#"><img src="img/coment.svg"></a>
-                                    <input type="text" name="Comentar" placeholder="Comentar...">
-                
-                
-                                </div>
-                
-                                <p>9999 curtidas</p>
-                
-                
-                            </div><!--like-coment-->
-                
-                            <div class="comentarios">
-                
-                                <div class="coment1"><h2>paulo_brandao</h2>
-                                <p>Pessoal de dev CONFIA </p>
-                                </div>
-                                
-                
-                                <div class="coment1"><h2>paulo_brandao</h2>
-                                <a href="#">#confia</a>
-                                </div>
-                                
-                                
-                                
-                            </div><!--comentarios-->
-                
-                        
-                            
-                            
-                        </div><!--publicacao-->
-                
-                        <div class="publicacao">
-                                        
-                            <div class="tag-user">
-                                <img src="img/confia.jpg">
-                                <div class="texto-user">
-                                    <p class="nome1">paulo_brandao</p>
-                                    <p class="description">SENAI informatica</p>
-                                </div>    
-
-                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
-
-                            </div><!--tag-user-->
-                            
-                            <div class="foto-pub">
-                                <img src="img/homemsonho.jpg">
-                            </div><!--foto-pub-->
-                
-                            <div class="like-coment">
-                
-                
-                                <div class="icon-coment">
-                        
-                                    <a href="#"><img src="img/heart.svg"></a>
-                                    <a href="#"><img src="img/coment.svg"></a>
-                                    <input type="text" name="Comentar" placeholder="Comentar...">
-                
-                
-                                </div>
-                
-                                <p>209 curtidas</p>
-                
-                
-                            </div><!--like-coment-->
-                
-                            <div class="comentarios">
-                
-                            
-                
-                                <div class="coment1"><h2>paulo_brandao</h2>
-                                <a href="#">#ficaadica</a>
-                                </div>
-                                
-                
-                                <div class="coment1"><h2>sxwuell</h2>
-                                <p>aaaaaaaaaa</p>
-                                </div>
-                                
-                
-                                
-                                
-                            </div><!--comentarios-->
-                
-                        
-                            
-                            
-                        </div><!--publicacao-->
-
 
 
 
