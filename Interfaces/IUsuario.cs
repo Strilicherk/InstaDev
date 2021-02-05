@@ -3,7 +3,7 @@ using InstaDev.Models;
 
 namespace InstaDev.Interfaces
 {
-    public interface IUser
+    public interface IUsuario
     {
         // CRUD
         void Create(User newUser);

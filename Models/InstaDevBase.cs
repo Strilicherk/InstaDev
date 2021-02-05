@@ -3,7 +3,7 @@ using System.IO;
 
 namespace InstaDev.Models
 {
-    public class InstaDevBase
+    public class InstadevBase
     {
         public void CreateFolderAndFile(string PATH){
 
