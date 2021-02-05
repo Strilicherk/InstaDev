@@ -111,7 +111,7 @@ C:\Users\Marco\Desktop\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.pdb
 C:\Users\Marco\Desktop\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.genruntimeconfig.cache
 C:\Users\Marco\Desktop\InstaDev\obj\Debug\netcoreapp3.1\InstaDev.csproj.CopyComplete
 C:\Users\Marco\Desktop\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\User\Registered.cshtml.g.cs
-C:\Users\mathe\OneDrive\Área de Trabalho\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\EditarPerfil\Editar.cshtml.g.cs
 C:\Users\mathe\OneDrive\Área de Trabalho\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Perfil\Index.cshtml.g.cs
 C:\Users\mathe\OneDrive\Área de Trabalho\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\User\Registered.cshtml.g.cs
 C:\Users\mathe\OneDrive\Área de Trabalho\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\Login\login.cshtml.g.cs
+C:\Users\mathe\OneDrive\Área de Trabalho\InstaDev\obj\Debug\netcoreapp3.1\Razor\Views\EditarPerfil\Index.cshtml.g.cs
