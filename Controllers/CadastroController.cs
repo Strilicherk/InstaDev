@@ -31,4 +31,4 @@ namespace Instadev.Controllers
             return LocalRedirect("~/Login");
         }       
     }
-}
+ }
