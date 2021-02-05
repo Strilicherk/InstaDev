@@ -4,20 +4,20 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace InstaDev.Controllers
 {
-    // localhost:5001/Instadev
+    // localhost:5001/User
     [Route ("User")]
     public class UserController:Controller
     {
         User userModels = new User();
 
-        // localhost:5001/Instadev/Cadastro
-        [Route ("Register")]
+        // localhost:5001/User/Register
+        [Route ("Registered")]
         public IActionResult Registered(){
             ViewBag.Users = userModels.ReadAllItems();
             return View();
         }
 
-        // localhost:5001/Instadev/Cadastrando
+        // localhost:5001/User/New
         [Route ("New")]
         public IActionResult Register(IFormCollection registrationForm){ 
             User newUser = new User();
@@ -31,8 +31,8 @@ namespace InstaDev.Controllers
             userModels.Create(newUser);
             ViewBag.Users = userModels.ReadAllItems();
 
-            // localhost:5001/Instadev/Cadastro
-            return LocalRedirect("~/User/Register");
+            // localhost:5001/Instadev/Register
+            return LocalRedirect("~/User/Registered");
         }
     }
 }

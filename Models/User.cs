@@ -20,11 +20,10 @@ namespace InstaDev.Models
         public User(){ 
             CreateFolderAndFile(PATH);
         }
-
         public int IdGenerator(){
             Random idRandom = new Random();
             return idRandom.Next();
-}
+        }
         
         public string PrepareLinesCSV(User prepareLines){ 
             return $"{prepareLines.Email};{prepareLines.CompleteName};{prepareLines.UserName};{prepareLines.Password}";
@@ -55,6 +54,7 @@ namespace InstaDev.Models
             return users; 
         }
 
+
         public void Update(User update){
             List<string> linesUpdate = ReadAllLinesCSV(PATH);
         
@@ -76,6 +76,27 @@ namespace InstaDev.Models
         
             
             RewriteCSV(PATH,linesUpdate);
-        } 
-    }
+        }
+        public User BuscarId(int id)
+        {
+            User buscarUser = new User();
+
+            List<String> csv = buscarUser.ReadAllLinesCSV("Database/register.csv");
+
+            var linhaBuscada =
+            csv.Find(
+                x =>
+                x.Split(";")[0] == id.ToString()
+            );
+
+            var usuarioLinha = linhaBuscada.Split(";");
+            User usuarioBuscado = new User();
+            usuarioBuscado.IdUser = int.Parse(usuarioLinha[0]);
+            usuarioBuscado.Email = usuarioLinha[1];
+            usuarioBuscado.CompleteName = usuarioLinha[2];
+            usuarioBuscado.UserName = usuarioLinha[3];
+            usuarioBuscado.Password = usuarioLinha[4];
+            return usuarioBuscado;
+        }
+  }
 }

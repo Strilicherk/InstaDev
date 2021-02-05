@@ -14417,28 +14417,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\User\\Registered.cshtml",
+      "TargetPath": "Views\\User\\Registered.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\EditarPerfil\\Index.cshtml",
       "TargetPath": "Views\\EditarPerfil\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\Login\\login.cshtml",
+      "TargetPath": "Views\\Login\\login.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Views\\Register\\Index.cshtml",
-      "TargetPath": "Views\\Register\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

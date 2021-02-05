@@ -13,41 +13,6 @@
     <title>EditarPerfil</title>
 </head>
 <body>
-    <!-- Início Header -->
-    <header>
-        <div class="center">    
-    
-            <div class="logo-header">
-                <a href="#"><img src="img/Instadev.svg" alt="logo Instadev"></a>
-            </div> <!-- logo da header -->
-            
-    
-            <div class="search">
-    
-                <div class="search-box">
-    
-                    <i class="fas fa-search"></i>
-                    <input placeholder="Pesquisar" type="text" name="busca">
-    
-                </div><!-- search-box-->
-                
-            </div> <!-- search-->
-            
-    
-            <div class="notify">
-                
-                <a href="#"><img src="img/Vector.svg"></a>
-                <a href="#"><img src="img/plane 1.svg"></i></a>
-                <a href="#"><i class="far fa-compass"></i></i></a>
-                <a href="#"><i class="far fa-heart"></i></a>
-    
-                <div class="img-miniatura"><img src="img/IMG_20201028_173745_375 (4).jpg"  ></div>
-            </div><!--icones-->
-    
-        </div><!--center div de centralizar-->
-    </header>
-    <!-- Fim Header -->
-
     <main class=container>
         <section class="content">
             <div class="barra-divisao"></div>
@@ -63,25 +28,25 @@
                 </div>
                 <div class="nome">
                     <h1>Nome</h1>
-                    <input type="text">
+                    <input type="text" name="NomeCompleto" placeholder="Digite seu novo nome de usuário.">
                     <p>Ajude as pessoas a descobrir sua conta usando o nome pelo qual você é conhecido: seu nome completo, apelido ou nome comercial. <br>
                     <br>
                     Você pode alterar o seu nome apenas duas vezes a cada 14 dias.</p>
                 </div>
                 <div class="nome-usuario">
                     <h2>Nome de Usuário</h2>
-                    <input type="text">
-                    <p>Na maioria dos casos, você poderá alterar seu nome de usuário novamente para nascimento_tr por mais 14 dias.<br>
+                    <input type="text" name="Username" placeholder="Digite o seu novo nome de usuário.">
+                    <p>Na maioria dos casos, você poderá alterar seu nome de usuário novamente por mais 14 dias.<br>
                         <br>
                     Informações pessoais <br> Forneça suas informações pessoais, mesmo se a conta for usada para uma empresa, um animal de estimação ou outra coisa. Elas não farão parte do seu perfil público.</p>
                 </div>
                 <div class="email">
                     <h3>Email</h3>
-                    <input type="email">
+                    <input type="email" name="email" placeholder="Atualize seu email aqui.">
                 </div>
                 <div class="inferior">
-                    <button>Enviar</button>
-                    <a asp-area="link para excluir equipe" asp-controller="EditarPerfil" asp-action="Excluir">Desativar minha conta definitivamente</a>
+                    <a href="~/Perfil/Index"><button>Enviar</button></a>
+                    <a asp-area="link para desativar a sua conta permanentemente" asp-controller="EditarPerfil" asp-action="Excluir">Desativar minha conta definitivamente</a>
                 </div>
             </div>
         </section>
