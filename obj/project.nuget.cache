@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HU2Qr/P7d9QmFT4JWzG3ot0hUmzsO4UvqbYDB7WRMGf3y79N2romTK/3wD19Nn2z/wVWoT19QVdf5fcGFDVxuQ==",
+  "dgSpecHash": "rPYZtzkeqS5KL/MffkUQkxk081aevfD0C/RU33o5Uqv4YXMt58q9TQSTEUpt3GRKUVCYLj4xT6cgCjr2xHR/dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\Insta\\Instadev-06.csproj",
+  "projectFilePath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\InstaDev\\Instadev-06.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
   ],
